@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-const navbar = () => {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
+const NavBar = () => {
   const [nav, setNav] = useState(false);
   const links = [
     {
@@ -81,4 +80,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default NavBar;
